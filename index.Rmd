@@ -1,0 +1,105 @@
+--- 
+title: "Reproducible Research In R"
+author: "Christian Martinez"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a OER Textbook created in conjunction with the Open Educational Resource team at Brooklyn College.
+  This is meant to help students, researchers, and anyone who wants to answer questions.
+biblio-style: apalike
+csl: chicago-fullnote-bibliography.csl
+---
+
+# About {-}
+
+This book was inspired by my students—particularly graduate students at Brooklyn College who wanted to ask meaningful research questions but felt held back by tools that were opaque, brittle, or difficult to reproduce. Over time, it became clear that learning *R* was not just about writing code; it was about learning how to think clearly, document decisions, and produce work that others (and your future self) can understand and reuse.
+
+**Reproducible Research in R** is an open educational resource (OER) designed to help students, researchers, and practitioners build confidence using R as a complete research tool—from data import and visualization to statistical analysis and polished reporting. The goal of this book is not just to teach *what* buttons to press or *which* functions to call, but to teach a **workflow** that is transparent, explainable, and most importantly, reproducible.
+
+This book was created in conjunction with the Open Educational Resources initiative at Brooklyn College and is freely available for learning, teaching, and adaptation.
+
+## What You’ll Learn
+
+By working through this book, you will learn how to:
+
+- Use R and RStudio as an integrated research environment  
+- Import, clean, and explore data using modern R tools  
+- Visualize data clearly and intentionally  
+- Conduct common statistical analyses used in applied research  
+- Interpret results in context—not just report numbers  
+- Create fully reproducible reports using R Markdown and Bookdown  
+
+Throughout the book, reproducibility is treated not as an “extra” or an advanced topic, but as a **default practice**.
+
+## What You Should Know First
+
+You do *not* need prior experience with:
+
+- R  
+- Programming  
+- Command-line tools  
+
+Basic familiarity with research methods and statistics is helpful, but the focus of this book is on **implementation and workflow**, not statistical theory.
+
+## What This Book Does Not Cover
+
+This book is not intended to be:
+
+- A comprehensive statistics theory textbook  
+- A software engineering or computer science text  
+- An advanced machine learning or big-data resource  
+
+Instead, it focuses on the tools and practices most commonly needed to conduct and present reproducible research in applied settings.
+
+# How to Use This Book {-}
+
+This book is designed to be flexible. You can read it cover-to-cover, jump directly to specific chapters, or use it as a reference alongside your own projects.
+
+## Chapter Anatomy
+
+The breakdown of the book is as follows:
+
+- Part I: Foundations
+  - Getting Started with R
+  - Working with Data Using the tidyverse
+  - Data Visualization with ggplot2
+- Part II: Making Comparisons
+  - Comparing Two Groups: Data Wrangling, Visualization, and t-Tests
+  - Comparing Multiple Means
+  - Analyzing Categorical Data
+- Part III: Relationships and Modeling
+  - Correlation
+  - Linear Regression
+  - Logistic Regression
+- Part IV: Reproducible Communication
+  - Reproducible Reporting with R Markdown
+
+Most chapters follow a consistent structure:
+
+- Conceptual explanation of *why* a tool or method is useful  
+- Step-by-step code examples  
+- Visualizations and outputs  
+- Interpretation and best practices  
+- A checklist to reinforce reproducible habits  
+
+This repetition is intentional. Consistency helps build intuition.
+
+## Code, Data, and Reproducibility
+
+All code in this book is meant to be **run**, **modified**, and occasionally **broken**. Learning happens when you experiment. As my father always says:
+
+> That's why they put erasers on pencils
+
+The datasets used throughout the book are provided in a companion R package so that readers can load them directly without downloading files manually. This ensures that examples work the same way for everyone.
+
+When figures, tables, or analyses appear in this book, they are generated directly from code—never copied and pasted from external software.
+
+## Acknowledgments
+
+This book would not exist without the curiosity, questions, and persistence of students at Brooklyn College. Their willingness to wrestle with messy data and imperfect code shaped both the content and the tone of this text.
+
+Additional thanks go to the Open Educational Resources team at Brooklyn College and to the broader R community, whose commitment to open tools and shared knowledge makes projects like this possible.
